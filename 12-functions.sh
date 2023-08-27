@@ -18,3 +18,7 @@ then
     echo "ERROR :: Please rin this script with root access"
     exit 1
 fi
+yum install mysql -y &>>$LOG_FILE
+VALIDATE $? "mysql installing"
+yum install postfix -y &>>$LOG_FILE
+VALIDATE $? "postfix installing"
