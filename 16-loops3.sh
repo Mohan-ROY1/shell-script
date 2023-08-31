@@ -1,5 +1,5 @@
 #!/bin/bash
 # This scripting is fro loops
 
-DATE=$(date +%)
+DATE=$(date +%F)
 echo "$DATE"
