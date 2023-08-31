@@ -2,4 +2,4 @@
 # this scripting for installation purpose
 
 DATE=$(date +%F)
- echo "$DATE"
+echo "$DATE"
